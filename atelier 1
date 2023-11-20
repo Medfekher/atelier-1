@@ -82,6 +82,24 @@
         form input[type="submit"]:hover {
             background-color: #555;
         }
+        footer ul li a{
+    color:#fff
+}
+footer{
+    background:#232324;
+    z-index:1;
+    position:relative;
+    text-align:center
+}
+footer li a{
+    color:#ffffff;
+    font-weight:500
+}
+footer ul li{
+    display:inline-block;
+    font-size:14px;
+    padding:10px 20px
+}
     </style>
 </head>
 
@@ -138,8 +156,10 @@
         <li><input type="submit" value="Register"></li>
     </form>
     <footer class="footer">
-        <p><p align="center">Contactez-nous: <a href="mailto:info@example.com">zribifekher@esprit.com</a></p></p>
-        <p><p align="center">Adresse: jaafar1 rue ibn kholdoun - ariana_soghra</p></p>
+        <ul>
+        <li> <a href="mailto:info@example.com">Contactez-nous: zribifekher@esprit.com</a></li>
+        <li><a >Adresse: jaafar1 rue ibn kholdoun - ariana_soghra</a></li>
+    </ul>
     </footer>
 </body>
 </html>
